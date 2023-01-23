@@ -16,6 +16,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!---AOS CSS Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,11 +63,11 @@
 
         <section class="section-one">
             <div class="section-one-text">
-                <h1>
+                <h1 data-aos="fade-up" data-aos-duration="2000">
                     مرحبا بكم في فينيكس
                     <br> لتطوير الالعاب
                 </h1>
-                <div class="box-btn">
+                <div class="box-btn" data-aos="fade-down">
                     <a href="#">اطلب عرض</a>
                 </div>
             </div>
@@ -74,7 +76,8 @@
             <div class="container-padding">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="section-services-text">
+                        <div class="section-services-text" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                            data-aos-offset="500" data-aos-duration="2000">
                             <div class="first-text">
                                 <div class="border-right"></div>
                                 <h3>ماذا نقدم</h3>
@@ -90,12 +93,12 @@
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="div-box color-1">
-                            <img src="./images/img1.png" alt="">
+                            <img src="./images/img1.png" alt="" data-aos="fade-left">
                             <p>ابتكار سيناريوهات الألعاب</p>
                         </div>
                     </div>
                     <div class="col-md-12 col-6">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center" data-aos="fade-right">
                             <div class="col-md-4 m-auto">
                                 <div class="div-box m-auto color-2">
                                     <img src="./images/img2.png" alt="">
@@ -106,25 +109,25 @@
 
                     </div>
                     <div class="col-md-4 col-6">
-                        <div class="div-box color-3">
+                        <div class="div-box color-3" data-aos="fade-left">
                             <img src="./images/img3.png" alt="">
                             <p>برمجة وتطوير الألعاب</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
-                        <div class="div-box color-4 box-size">
+                        <div class="div-box color-4 box-size" data-aos="fade-right">
                             <img src="./images/img4.png" alt="">
                             <p>الصيانة والدعم الفني</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="div-box color-5">
-                            <img src="./images/img5.png" alt="">
+                            <img src="./images/img5.png" alt="" data-aos="fade-left">
                             <p>نشر الألعاب على مختلف المنصات</p>
                         </div>
                     </div>
                     <div class="col-md-12 col-6">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center" data-aos="fade-right">
                             <div class="col-md-4 m-auto">
                                 <div class="div-box m-auto color-6">
                                     <img src="./images/img6.png" alt="">
@@ -139,7 +142,7 @@
 
         </section>
         <section class="section-team">
-            <div class="section-team-text">
+            <div class="section-team-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <div class="first-text">
                     <div class="border-right"></div>
                     <h3>تعرف علينا </h3>
@@ -195,7 +198,8 @@
 
         </section>
         <section class="section-games">
-            <div class="section-games-text">
+            <div class="section-games-text" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                data-aos-duration="2000">
                 <div class="first-text">
                     <div class="border-right"></div>
                     <h3> ما أنجزنا</h3>
@@ -205,7 +209,7 @@
             <div class="container-pad">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                             <div class="overlay"></div>
                             <img src="./images/game1.png" alt="">
                             <div class="images-text">
@@ -215,7 +219,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                             <div class="overlay"></div>
                             <img src="./images/game2.png" alt="">
                             <div class="images-text">
@@ -225,7 +229,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                             <div class="overlay"></div>
                             <img src="./images/game3.png" alt="">
                             <div class="images-text">
@@ -235,7 +239,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-anchor-placement="top-center">
                             <div class="overlay"></div>
                             <img src="./images/game4.png" alt="">
                             <div class="images-text">
@@ -253,11 +257,12 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="div-image">
-                            <img src="./images/certficatie.png" alt="">
+                            <img src="./images/certficatie.png" alt="" data-aos="fade-up" data-aos-duration="3000">
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="section-certificate-text">
+                        <div class="section-certificate-text" data-aos="fade-down" data-aos-easing="linear"
+                            data-aos-duration="3000">
                             <div class="first-text">
                                 <div class="border-right"></div>
                                 <h3> ماذا يقول عملاؤنا</h3>
@@ -376,8 +381,11 @@
     <!---Slick Slider JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script src="./js/slider-part.js"></script>
-    <!---Animation-->
-    <script src="./js/animation.js"></script>
+    <!---AOS JS Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>

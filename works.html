@@ -16,7 +16,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
+    <!---AOS CSS Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,7 +61,7 @@
     </header>
     <main class="main">
         <section class="section-two">
-            <div class="section-tow-text">
+            <div class="section-tow-text" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h4>أعمال نفخر بها</h4>
                 <h1>ألعابنا</h1>
                 <p>أعمال نفخر بها أعمال نفخر بها أعمال نفخر بها أعمال نفخر بها أعمال نفخر بها أعمال نفخر بها أعمال نفخر
@@ -71,7 +72,7 @@
 
         <section class="section-games section-games-top">
             <div class="container-pad">
-                <div class="btn-group">
+                <div class="btn-group" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <button class="select-filter dropdown-toggle" type="button" id="defaultDropdown"
                         data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                         <span> تصنيف حسب</span>
@@ -84,7 +85,8 @@
                 </div>
                 <div class="row color-back">
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-right" data-aos-easing="linear"
+                            data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game1.png" alt="" class="img-game">
                             <div class="images-text">
@@ -94,7 +96,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game2.png" alt="" class="img-game">
                             <div class="images-text">
@@ -104,7 +106,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game3.png" alt="" class="img-game">
                             <div class="images-text">
@@ -114,7 +116,8 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-right" data-aos-easing="linear"
+                            data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game4.png" alt="" class="img-game">
                             <div class="images-text">
@@ -124,7 +127,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game1.png" alt="" class="img-game">
                             <div class="images-text">
@@ -134,7 +137,8 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-right" data-aos-easing="linear"
+                            data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game2.png" alt="" class="img-game">
                             <div class="images-text">
@@ -144,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game3.png" alt="" class="img-game">
                             <div class="images-text">
@@ -154,7 +158,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="style-image">
+                        <div class="style-image" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
                             <div class="overlay"></div>
                             <img src="./images/game4.png" alt="" class="img-game">
                             <div class="images-text">
@@ -221,8 +225,11 @@
     <!---Slick Slider JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script src="./js/slider-part.js"></script>
-    <!---Animation-->
-    <script src="./js/animation.js"></script>
+    <!---AOS JS Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
