@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $(".carousel").slick({
-    speed: 500,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 2,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 2000,
     dots: true,
     centerMode: true,
     arrows: true,
