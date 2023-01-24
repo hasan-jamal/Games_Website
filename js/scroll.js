@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 100) {
+      $("#nav-one").css("transition", "0.5s");
       $("#nav-one").css("display", "none");
       $(".logo .logo1").css("width", "42px");
       $(".logo .logo1").css("height", "42px");

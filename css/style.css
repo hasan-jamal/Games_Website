@@ -21,6 +21,9 @@
 }
 body{
     font-family: 'El Messiri' !important;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 a{
   text-decoration: none !important;
@@ -93,10 +96,12 @@ body {
     font-family: sans-serif;
     padding: 10px 50px;
     z-index: 1000;
-    transition: 0.5s;
+    -webkit-transition: all 0.4s ease ;
+    transition: all 0.4s ease ;
   }
   .push-left {direction: rtl;
     margin-left: auto;
+    transition: 0.5s;
   }
   /* Menu */
   .hamburger {
@@ -226,6 +231,7 @@ body {
     margin-bottom: 8px;
     padding-top: 10px;
     display: flex;
+    transition: 0.5s;
   }
  .nav-one .search-box{
     background: #1D2440;
