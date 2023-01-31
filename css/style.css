@@ -1580,7 +1580,7 @@ display: none;
     color: #000000;
   }
   .section-contact-form{
-    padding-top: 260px;
+    padding-top: 200px;
   }
   .section-contact-form h1{
     font-family: 'El Messiri';
@@ -1613,7 +1613,7 @@ display: none;
     color: #808282;
   }
   .section-contact-form button{
-    margin-top: 44px;
+    margin-top: 44px !important;
     background: #ED953D;
     border-radius: 14px;
     text-align: center;
